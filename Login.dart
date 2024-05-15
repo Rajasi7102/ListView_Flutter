@@ -61,7 +61,7 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Widget _inputField(String hintText, TextEditingController controller,
-      {isPassword = false}) {
+      ) {
     var border = OutlineInputBorder(
         borderRadius: BorderRadius.circular(15),
        
@@ -99,7 +99,7 @@ class _LoginPageState extends State<LoginPage> {
             style: TextStyle(fontSize: 15),
           )),
       style: ElevatedButton.styleFrom(
-        shape: const StadiumBorder(),
+       
         
         padding: const EdgeInsets.symmetric(vertical: 17),
       ),
